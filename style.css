@@ -336,13 +336,11 @@ animation: bounce 3s infinite;}
   }
 
   .git{
-      position: relative;
       right: 2.5%;
       bottom: .5rem;
   }
   
   .twitter{
-      position: relative;
       right: 1.5%;
       bottom: .4rem;
   }
