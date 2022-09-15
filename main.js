@@ -78,8 +78,8 @@ const planetsArr = Object.values(planets);
 
 const newFact = () => {
   let generateRandomNumber = Math.floor(Math.random() * planetsArr.length);
-  document.canvas.src = "/assets/" + pics[generateRandomNumber];
-  document.canvas_mobile.src = "/assets/" + pics[generateRandomNumber];
+  document.canvas.src = "./assets/" + pics[generateRandomNumber];
+  document.canvas_mobile.src = "./assets/" + pics[generateRandomNumber];
   let head = (document.getElementById("head").innerHTML =
     title[generateRandomNumber]);
   document.getElementById("description").innerHTML =
