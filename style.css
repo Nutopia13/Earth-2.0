@@ -331,7 +331,8 @@ animation: bounce 3s infinite;}
   }
 
   .socials_cont{
-      margin: auto;
+      padding-top: 1rem;
+      margin: 0 auto;
       max-width: 100px;
   }
 
