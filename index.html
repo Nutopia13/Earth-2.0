@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Earth 2.0</title>
+        <meta name="description" content="Message generator program. Every time a you run a program, you will get randomized output. ">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href='./assets/favicon.ico'>
+    </head>
+    <body>
+        <h1>Earth 2.0</h1>
+    <div class="large_cont">
+        <div class="container">
+          <div class="cart">
+            <div id="factDisplay">
+              <h2 id="head"></h2>
+              <div class="mobile_cont">
+                <img class = 'mobile_img' src="/assets/planet.png" name="canvas_mobile" style = 'width:60%;' />
+              </div>
+              <div class="text_cont">
+                <p class= 'paragraph' id="description"><img class= 'loader' src="./assets/loader.svg" alt=""> <img class= 'loader' src="./assets/loader.svg" alt=""></p>
+              </div>
+            </div>
+
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap'>
+<script src='http://www.devanswer.com/codes/files/charming@latest.js'></script>
+<a href="" class="rocket-button" id ='btn' onclick="newFact()">
+    <div class="default">Launch Rocket</div>
+    <!-- <div class="success">
+        <div class="travel">Launch Rocket</div>
+    </div> -->
+    <div class="animation">
+        <div class="rocket">
+            <svg>
+                <use xlink:href="#rocket"></use>
+            </svg>
+        </div>
+        <div class="smoke">
+            <i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+    </div>
+</a>
+<svg xmlns="#" style="display: none;">
+    <symbol xmlns="#" viewBox="0 0 13 11" id="check">
+        <polyline stroke="currentColor" points="1 5.5 5 9.5 12 1.5"></polyline>
+    </symbol>
+    <symbol xmlns="#" viewBox="0 0 24 36" id="rocket">
+        <path d="M12,0 C18.6666667,8.70175439 19.7777778,19.0350877 15.3333333,31 L8.66666667,31 C4.22222222,19.0350877 5.33333333,8.70175439 12,0 Z" fill="var(--rocket)"></path>
+        <path d="M12,0 C5.33333333,8.70175439 4.22222222,19.0350877 8.66666667,31 C6.72222222,17.9473684 7.83333333,7.61403509 12,0 Z" fill="var(--rocket-shadow-left)"></path>
+        <path d="M12,0 C18.6666667,8.70175439 19.7777778,19.0350877 15.3333333,31 C17.2777778,17.9473684 16.1666667,7.61403509 12,0 Z" fill="var(--rocket-shadow-right)"></path>
+        <path d="M22.2399372,27.25 C21.2403105,25.558628 19.4303122,23.808628 16.21,22 L15,31 L17.6512944,31 C18.2564684,31 18.8216022,31.042427 19.1572924,31.5292747 L21.7379379,35.271956 C22.0515593,35.7267976 22.5795404,36 23.1449294,36 C23.5649145,36 23.9142153,35.7073938 23.9866527,35.3215275 L24,35.146217 L23.9987214,35.1196135 C23.7534506,31.4421183 23.1671892,28.8189138 22.2399372,27.25 Z" fill="var(--rocket-wing-right)"></path>
+        <path d="M1.76006278,27.25 C2.75968951,25.558628 4.56968777,23.808628 7.79,22 L9,31 L6.34870559,31 C5.74353157,31 5.17839777,31.042427 4.84270762,31.5292747 L2.2620621,35.271956 C1.94844071,35.7267976 1.42045963,36 0.855070627,36 C0.435085457,36 0.0857846604,35.7073938 0.0133472633,35.3215275 L0,35.146217 L0.00127855763,35.1196135 C0.24654935,31.4421183 0.832810758,28.8189138 1.76006278,27.25 Z" fill="var(--rocket-wing-left)"></path>
+        <circle fill="var(--rocket-window-shadow)" cx="12" cy="12" r="3"></circle>
+        <circle fill="var(--rocket-window)" cx="12" cy="12" r="2.5"></circle>
+        <path d="M15.6021597,5.99977504 L8.39784027,5.99977504 C8.54788101,5.6643422 8.70496315,5.3309773 8.86908669,4.99968036 L15.1309133,4.99968036 C15.2950369,5.3309773 15.452119,5.6643422 15.6021597,5.99977504 Z" fill-opacity="0.3" fill="var(--rocket-line)"></path>
+    </symbol>
+</svg> 
+        <!-- <button id ='btn' onclick="newFact()">Travel</button> -->
+         </div>
+         <div class="socials_cont">
+           <a href="https://github.com/Nutopia13" target="_blank"><svg class ='git' width="32" height="32" viewBox="0 0 15 15"><path fill="white" fill-rule="evenodd" d="M7.5.25a7.25 7.25 0 0 0-2.292 14.13c.363.066.495-.158.495-.35c0-.172-.006-.628-.01-1.233c-2.016.438-2.442-.972-2.442-.972c-.33-.838-.805-1.06-.805-1.06c-.658-.45.05-.441.05-.441c.728.051 1.11.747 1.11.747c.647 1.108 1.697.788 2.11.602c.066-.468.254-.788.46-.969c-1.61-.183-3.302-.805-3.302-3.583a2.8 2.8 0 0 1 .747-1.945c-.075-.184-.324-.92.07-1.92c0 0 .61-.194 1.994.744A6.963 6.963 0 0 1 7.5 3.756A6.97 6.97 0 0 1 9.315 4c1.384-.938 1.992-.743 1.992-.743c.396.998.147 1.735.072 1.919c.465.507.745 1.153.745 1.945c0 2.785-1.695 3.398-3.31 3.577c.26.224.492.667.492 1.343c0 .97-.009 1.751-.009 1.989c0 .194.131.42.499.349A7.25 7.25 0 0 0 7.499.25Z" clip-rule="evenodd"/></svg></a>
+           <a href="https://twitter.com/V_Nechytailo" target="_blank"><svg width="32" height="32" class="twitter" viewBox="0 0 24 24"><path fill="white" d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23Z"/></svg></a>
+        </div>
+        </div>
+        <div class="stats">
+          <img class = 'img' src="/assets/planet.png" name="canvas" style = 'width:100%;' />
+          <div class="eyes" id="eyes_1">
+            <div class="eye"></div>
+            <div class="eye"></div>
+          </div>
+        </div>
+    </div>
+        <script src="main.js" async></script>
+    </body>
+</html>
