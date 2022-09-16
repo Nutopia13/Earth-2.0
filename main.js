@@ -103,8 +103,6 @@ planetDescArr.forEach((element) => {
   description.push(element[1]);
 });
 
-head.classList.add("title");
-
 //Eye Animation
 
 document.querySelector("body").addEventListener("mousemove", eyeball);
@@ -128,4 +126,3 @@ btn.addEventListener("click", () => {
   eyes.style.display = "none";
   img.classList.add("img_1");
 });
-
