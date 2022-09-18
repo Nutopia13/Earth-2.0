@@ -348,3 +348,20 @@ animation: bounce 3s infinite;}
   
 
 }
+
+ ::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5E5DF0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5E5DF0;
+} 
